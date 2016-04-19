@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Corsar - Ataca si scufunda</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/3dbox.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="header waves-bg">
+            <div class="row header-links middle-xs">
+              <div class="col-xs-12 col-sm-6 center-xs start-sm">
+                <a class="logo-font logo-style" href="index.html">CORSAR</a>
+              </div>
+              <div class="col-xs-12 col-sm-6 center-xs end-sm">
+              </div>
+            </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12 col-md-5">
+            <img id="mainImage" src="assets/images/cutie.png" alt="" class="img-responsive">
+            <ul id="productImages" class="row images-list between-xs">
+              <li class="col-xs"><img src="assets/images/cutie.png" alt="" class="img-responsive"></li>
+              <li class="col-xs"><img src="http://placehold.it/650x500" alt="" class="img-responsive"></li>
+              <li class="col-xs"><img src="http://placehold.it/650x500" alt="" class="img-responsive"></li>
+              <li class="col-xs"><img src="http://placehold.it/650x500" alt="" class="img-responsive"></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-7">
+            <h3>CORSAR - Atacă și scufundă</h3>
+
+            <div class="row">
+              <div class="col-xs-12 col-sm-6">
+                <h5>Continutul cutiei:</h5>
+                <ul>
+                  <li>Tabla de joc (cu 2 fete)</li>
+                  <li>16 Corabii cu panze (in 4 culori)</li>
+                  <li>160 Bilute (ca marinari, rezistenta navei)</li>
+                  <li>1 Morisca de vant</li>
+                  <li>2 Zaruri</li>
+                  <li>Manaualul jocului</li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <h5>Specificatii:</h5>
+                <ul>
+                  <li>Jucatori: 2-4</li>
+                  <li>Timp de joc: 30-90 Minute</li>
+                  <li>Varsta recomandata: 7+</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-12 col-sm-5 selection-box">
+                  <h5>Alege modul de livrare</h5>
+                  <ul class="payment-method">
+                    <li>
+                      <input type="radio" name="transport" value="curier" id="transport1" />
+                      <label for="transport1">Curier</label>
+                    </li>
+                    <li>
+                      <input type="radio" name="transport" value="posta" id="transport2" />
+                      <label for="transport2">Posta</label>
+                    </li>
+                  </ul>
+              </div>
+              <div class="col-sm-1"></div>
+              <div class="col-xs-12 col-sm-5 selection-box">
+                  <h5>Alege metoda de plata</h5>
+                  <ul class="payment-method">
+                    <li>
+                      <input type="radio" name="payment" value="online" id="payment1" />
+                      <label for="payment1">Plata online</label>
+                    </li>
+                    <li>
+                      <input type="radio" name="payment" value="ramburs" id="payment2" />
+                      <label for="payment2">Ramburs</label>
+                    </li>
+                    <li>
+                      <input type="radio" name="payment" value="direct" id="payment3" />
+                      <label for="payment3">Plata directă</label>
+                    </li>
+                  </ul>
+              </div>
+              <div class="col-sm-1"></div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-12 col-sm-3">
+                <h5 class="price-tag">Pret: <span id="price"></span>lei</h5>
+              </div>
+              <div class="col-xs-12 col-sm-9">
+                <a id="buynow" href="#/comanda" class="btn-cta">Selectează opțiunile de mai sus</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="gratitude text-center blue-bg padding-section wow fadeIn">
+            Joc 100% românesc. Antonio Savonea
+        </div>
+    </div>
+
+    <script src="assets/js/jquery-2.2.3.min.js"></script>
+    <script src="assets/js/details.js"></script>
+</body>
+</html>
