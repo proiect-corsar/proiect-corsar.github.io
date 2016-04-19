@@ -592,3 +592,15 @@ label::before {
 .price-tag {
   display: block;
 }
+
+.ie-friendly {
+  display: none !important;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .ie-friendly {
+    display: block !important;
+  }
+  .not-ie-friendly {
+    display: none !important;
+  }
+}
